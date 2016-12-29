@@ -15,6 +15,8 @@ Tampermonkey script for recolourizing Cumulative Flow Diagrams on Microsoft Visu
 
 This is a quick-and-dirty implementation. I stopped work on it once it worked.
 
+It finds the colours using a simple algorithm that looks for white columns from the right hand side of the image. If you have vertical whitespace rivers in the task type names it will fail.
+
 Works in latest version of Chrome and Firefox ... not tested in other browsers.
 
 It is possible to convert to a bookmarklet/favlet
